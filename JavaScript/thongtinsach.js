@@ -68,7 +68,7 @@ async function fetchBookDetail(id) {
     displayBookDetail(book);
 
     setupBookmarkButton(book.id);
-    setupHeartButton(book.id);
+    // setupHeartButton(book.id);
   } catch (error) {
     console.error(error);
     document.getElementById("book-detail-content").innerHTML = `

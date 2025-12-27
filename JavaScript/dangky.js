@@ -37,7 +37,6 @@ document
         email: email,
         role: "user",
         avatar: "./Image/2023-spiderman-2-ps5-5k-8u-3840x2160.jpg", // Avatar mặc định
-        favorites: [],
         history: [],
       };
 
